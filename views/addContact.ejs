@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Container">
+        <div id="row">
+            <div class="col-md-6 m-auto">
+                    <form action="" method="post" id="contactForm" class="contact">
+                        <div class="custom-file mb-3 shadow-lg" id="addCard">
+                            <label for="name" class="label">Name</label>
+                            <input type="text" name="name" id="name" class="textInput" required>
+                            <label for="phoneNumber" class="label">Phone Number</label>
+                            <input type="tel" name="phoneNumber" id="phoneNumber" class="textInput" required>
+                            <button type="submit" class="btn btn-success btn-block" id="upload">Add Contact</button>
+                        </div> 
+                    </form>
+                 
+            </div>
+        </div>
+    <script src="/assets/addContact.js"></script>
+</body>
+</html>
